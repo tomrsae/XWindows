@@ -29,7 +29,7 @@ private:
 	QThread	controllerThread;
 	ConnectionHandler connectionHandler;
 
-	const QString verNum = "1.0";
+	const QString verNum = "1.1";
 	const QPixmap controllerON = QPixmap(":/XWindows/ControllerON.png");
 	const QPixmap controllerOFF = QPixmap(":/XWindows/ControllerOFF.png");
 
