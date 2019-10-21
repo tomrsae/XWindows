@@ -55,6 +55,7 @@ The software is written purely in C++, with the use of `XINPUT`.
 QT has been used for the GUI.
 
 There are two source code directories: *XWin* & *XWindows*
+
 **XWin** is the static library that contains all the controller functionality. This library interfaces a `Controller` object used by the GUI. This library can be used as a framework for other controller applications for Windows, although it may require some code modifications for certain games etc. (see league-controller project on my page.)
 
 **XWindows** is the QT project that interfaces the *XWin* library, and that also takes care of the reconnecting with the use of `QThread` so as to not block the entire program while the controller is not connected.
