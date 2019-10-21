@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="XSettings">
+    <file>settings1.ico</file>
+  </qresource>
+</RCC>

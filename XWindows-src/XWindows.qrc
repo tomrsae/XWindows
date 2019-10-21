@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="XWindows">
+    <file>controller.ico</file>
+    <file>settings1.png</file>
+    <file>ControllerOFF.png</file>
+    <file>ControllerON.png</file>
+    <file>xbox-logo.png</file>
+  </qresource>
+</RCC>

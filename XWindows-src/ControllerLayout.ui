@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControllerLayout</class>
+ <widget class="QDialog" name="ControllerLayout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>696</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ControllerLayout</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ControllerLayout.qrc">
+    <normaloff>:/ControllerLayout/controller.ico</normaloff>:/ControllerLayout/controller.ico</iconset>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>641</width>
+     <height>342</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="ControllerLayout.qrc">:/ControllerLayout/Controllerlayout.jpg</pixmap>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ControllerLayout.qrc"/>
+ </resources>
+ <connections/>
+</ui>

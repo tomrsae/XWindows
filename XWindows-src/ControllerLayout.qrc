@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="ControllerLayout">
+    <file>Controllerlayout.jpg</file>
+    <file>controller.ico</file>
+  </qresource>
+</RCC>
