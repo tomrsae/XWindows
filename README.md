@@ -61,4 +61,4 @@ There are two source code directories: *XWin* & *XWindows*
 **XWindows** is the QT project that interfaces the *XWin* library, and that also takes care of the reconnecting with the use of `QThread` so as to not block the entire program while the controller is not connected.
 
 ## Windows' base controller support
-is garbage. It's really sad that they've added certain functionality that cannot be toggled on and off. This makes it hard for apps such as this to work 100% in Windows menus. There is an open issue on this in the repository, in case anyone who sees this has any idea what can be done about this.
+is garbage. It's really sad that they've added certain functionality that cannot be toggled on and off, but not added full support for it. This makes it hard for apps such as this to work 100% in Windows menus. There is an open issue on this in the repository, in case anyone who sees this has any idea what can be done about this.
