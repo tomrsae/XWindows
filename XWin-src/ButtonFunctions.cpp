@@ -159,6 +159,7 @@ namespace XWin
 	{
 		INPUT mouseInput;
 		mouseInput.type = INPUT_MOUSE;
+		mouseInput.mi.time = 0;
 
 		if (*active)
 		{
@@ -172,5 +173,6 @@ namespace XWin
 		}
 
 		SendInput(1, &mouseInput, sizeof(INPUT));
+		ZeroMemory(&mouseInput, sizeof(INPUT));
 	}
 }

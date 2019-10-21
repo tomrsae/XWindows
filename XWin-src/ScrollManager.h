@@ -14,8 +14,10 @@ namespace XWin
 			mouseInput.type = INPUT_MOUSE;
 			mouseInput.mi.dwFlags = MOUSEEVENTF_WHEEL;
 			mouseInput.mi.mouseData = scrollMultiplier;	// Amount of scroll
+			mouseInput.mi.time = 0;
 
 			SendInput(1, &mouseInput, sizeof(INPUT));
+			ZeroMemory(&mouseInput, sizeof(INPUT));
 		}
 	};
 }
