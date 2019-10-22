@@ -9,8 +9,6 @@ This program is excellent for setups that use an XBOX controller, for example co
 ### Downloading
 The installer can be found in the **"Releases"** tab of this page. Once downloaded, launch the installer and it will take care of the techinal aspect for you.
 
-For some reason the installer was marked as "unsafe" by Windows on my second computer. This is unfortunate and I will look into this. The program is safe and only does one thing: allow you to use an xbox controller for Windows. The open source code reflects this.
-
 ### Using
 Once installed, XWindows can be launched from any shortcut. The program attempts to connect to the controller immediately and allows for on-boot startup, meaning you won't really need a keyboard or mouse at all after initial setup.
 
