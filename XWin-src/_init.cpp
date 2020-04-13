@@ -4,13 +4,12 @@
 
 namespace XWin
 {
-	float	Controller::JOYSTICK_SENSITIVITY = 1.5f;
-	short	Controller::TRIGGER_SENSITIVITY = 50;
+	float	Controller::JOYSTICK_SENSITIVITY = 0;
+	short	Controller::TRIGGER_SENSITIVITY = 0;
 	int		Controller::ATTEMPTED_RECONNECTS = 0;
 
 	POINT CursorManager::pCursor = POINT();
 
-	// Colored ABXY buttons
 	std::array<Buttons::Button, 14> Buttons::buttons = {
 		// Colored ABXY buttons
 		Button(ButtonFlag::A,			ButtonFunction::L_MOUSE),

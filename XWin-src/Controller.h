@@ -38,7 +38,7 @@ namespace XWin
 		static short	TRIGGER_SENSITIVITY;				// Trigger sensitivity - MUST BE > 50
 		static int		ATTEMPTED_RECONNECTS;				// Keeps track of how many times a reconnection has been attempted
 
-		bool manualDisconnect = false;
+		bool manualDisconnect = false;						// Is checked on program loop, allows for manual disconnect
 
 		bool isConnected();                                 // Verifies that controller is connected
 		void disconnect();									// Manually disables controller
