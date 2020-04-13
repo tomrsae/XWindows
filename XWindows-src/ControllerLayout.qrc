@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="ControllerLayout">
     <file>Controllerlayout.jpg</file>
-    <file>controller.ico</file>
+    <file>controller2.ico</file>
   </qresource>
 </RCC>

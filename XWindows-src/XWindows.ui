@@ -15,7 +15,14 @@
   </property>
   <property name="windowIcon">
    <iconset resource="XWindows.qrc">
-    <normaloff>:/XWindows/controller.ico</normaloff>:/XWindows/controller.ico</iconset>
+    <normaloff>:/XWindows/controller2.ico</normaloff>
+    <normalon>:/XWindows/controller2.ico</normalon>
+    <disabledoff>:/XWindows/controller2.ico</disabledoff>
+    <disabledon>:/XWindows/controller2.ico</disabledon>
+    <activeoff>:/XWindows/controller2.ico</activeoff>
+    <activeon>:/XWindows/controller2.ico</activeon>
+    <selectedoff>:/XWindows/controller2.ico</selectedoff>
+    <selectedon>:/XWindows/controller2.ico</selectedon>:/XWindows/controller2.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:  rgb(13, 115, 130);</string>
@@ -165,6 +172,27 @@ margin-top: 5px;</string>
        </property>
        <property name="text">
         <string>Attempting to reconnect...</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_savingChanges">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 223, 32);</string>
+       </property>
+       <property name="text">
+        <string>Saving changes...</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

@@ -3,6 +3,7 @@
 #include <QtWidgets/QMainWindow>
 #include <thread>
 #include "qmessagebox.h"
+#include "qsystemtrayicon.h"
 #include "ui_XWindows.h"
 #include "ConnectionHandler.h"
 #include "XSettings.h"
@@ -16,6 +17,9 @@ public:
 	XWindows(QWidget *parent = Q_NULLPTR);
 	~XWindows();
 
+signals:
+	void settingsOpened();
+
 private slots:
 	void on_toggleBtn_clicked();
 	void on_settingsBtn_clicked();
@@ -27,9 +31,10 @@ private:
 	Ui::XWindowsClass ui;
 	XSettings settings;
 	QThread	controllerThread;
+	QSystemTrayIcon systemTrayIcon;
 	ConnectionHandler connectionHandler;
 
-	const QString verNum = "1.1";
+	const QString verNum = "1.2";
 	const QPixmap controllerON = QPixmap(":/XWindows/ControllerON.png");
 	const QPixmap controllerOFF = QPixmap(":/XWindows/ControllerOFF.png");
 
@@ -37,4 +42,5 @@ private:
 
 	void connectController();
 	void disableController();
+	void init();
 };

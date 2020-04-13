@@ -15,7 +15,14 @@
   </property>
   <property name="windowIcon">
    <iconset resource="ControllerLayout.qrc">
-    <normaloff>:/ControllerLayout/controller.ico</normaloff>:/ControllerLayout/controller.ico</iconset>
+    <normaloff>:/ControllerLayout/controller2.ico</normaloff>
+    <normalon>:/ControllerLayout/controller2.ico</normalon>
+    <disabledoff>:/ControllerLayout/controller2.ico</disabledoff>
+    <disabledon>:/ControllerLayout/controller2.ico</disabledon>
+    <activeoff>:/ControllerLayout/controller2.ico</activeoff>
+    <activeon>:/ControllerLayout/controller2.ico</activeon>
+    <selectedoff>:/ControllerLayout/controller2.ico</selectedoff>
+    <selectedon>:/ControllerLayout/controller2.ico</selectedon>:/ControllerLayout/controller2.ico</iconset>
   </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">

@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="XWindows">
-    <file>controller.ico</file>
+    <file>controller2.ico</file>
     <file>settings1.png</file>
     <file>ControllerOFF.png</file>
     <file>ControllerON.png</file>

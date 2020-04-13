@@ -168,6 +168,16 @@
      </widget>
     </item>
     <item>
+     <widget class="QCheckBox" name="useReconnectTimeout">
+      <property name="text">
+       <string>Use reconnect timeout</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QSpinBox" name="max_reconnects">
       <property name="maximumSize">
        <size>
@@ -208,6 +218,9 @@
     </item>
     <item>
      <widget class="QCheckBox" name="startWithSystem">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="text">
        <string>Start XWindows on system startup</string>
       </property>
@@ -252,6 +265,9 @@
       <property name="autoDefault">
        <bool>true</bool>
       </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
      </widget>
     </item>
     <item>
@@ -263,10 +279,10 @@
        </size>
       </property>
       <property name="text">
-       <string>OK</string>
+       <string>Save Changes</string>
       </property>
       <property name="default">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
      </widget>
     </item>
